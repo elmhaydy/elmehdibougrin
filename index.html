@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="fr" data-theme="dark">
+<html lang="fr" data-theme="light">
   <head>
     <script>
       (function () {
-        let t = localStorage.getItem("theme_slate_v1");
+        let t = localStorage.getItem("theme_light_v2");
         if (!t) {
-          t = "dark";
-          localStorage.setItem("theme_slate_v1", "1");
-          localStorage.setItem("theme", "dark");
+          t = "light";
+          localStorage.setItem("theme_light_v2", "1");
+          localStorage.setItem("theme", "light");
         } else {
-          t = localStorage.getItem("theme") || "dark";
+          t = localStorage.getItem("theme") || "light";
         }
         document.documentElement.setAttribute("data-theme", t);
       })();
