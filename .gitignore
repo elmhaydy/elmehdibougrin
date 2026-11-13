@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Backups and temporary files
+*.bak
+*.tmp
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
